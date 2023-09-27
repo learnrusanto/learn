@@ -142,7 +142,7 @@ def generate_html(lingvo, enhavo, args):
     if args.vojprefikso:
         vojprefikso = args.vojprefikso + lingvo + '/'
     else:
-        vojprefikso = '/' + lingvo + '/'
+        vojprefikso = '/' + 'learn/' + lingvo + '/'
 
     rendered = env.get_template('index.html').render(
         enhavo=enhavo,

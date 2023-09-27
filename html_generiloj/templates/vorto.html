@@ -1,0 +1,34 @@
+{%- if vorto is string -%}
+  {{vorto}}
+{%- elif vorto is iterable -%}
+  <a href="javascript:" data-toggle="popover" title="
+    {% set klavo = false %}
+    {% if vorto|join|lower in enhavo.vortaro -%}
+      {% set klavo = vorto|join|lower %}
+    {% elif vorto|join in enhavo.vortaro -%}
+      {% set klavo = vorto|join %}
+    {% endif %} 
+    {% include 'tradukajxo.html' %}
+  " data-content="
+    <table>
+    {# Loop only if there are multiple roots. #}
+    {% if vorto|length > 1 -%} 
+      {% for radiko in vorto -%} 
+        <tr>
+          <td><em>{{radiko}}</em></td>
+          <td>
+            {% if radiko|lower in enhavo.vortaro -%}
+              {% set klavo = radiko|lower %}
+            {% elif radiko in enhavo.vortaro -%}
+              {% set klavo = radiko %}
+            {% endif %} 
+            {% include 'tradukajxo.html' %}
+          </td>
+        </tr>
+      {%- endfor %}
+    {% endif %} 
+    </table>
+  "
+  >{{vorto|join}}</a>
+{%- else %} 
+{% endif -%} 

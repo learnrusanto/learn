@@ -1,0 +1,89 @@
+{% extends "layout.html" %}
+
+{% block title %}
+  {{leciono_index}}. {{leciono.teksto.titolo_string}}
+  |
+  {{enhavo.fasado['Novaj vortoj']}}
+  |
+  {{enhavo.fasado['Esperanto en 12 lecionoj']}}
+{% endblock %}
+
+{% block content %}
+
+  {% include 'pager.html' %}
+
+  <h2 id="leciono{{leciono_index}}">
+    {{leciono_index}}.
+    {% for vorto in leciono.teksto.titolo %}
+      {% include 'vorto.html' %}
+    {% endfor %}
+  </h2>
+
+  {% include 'tabs.html' %}
+
+  <div dir="{{enhavo.tekstodirekto}}">
+	
+	<div id="eksporto">
+    <a class="btn btn-default" href="{{vojprefikso}}eksporto/{{enhavo.lingvo}}.apkg"> Anki APKG</a>
+	</div>
+
+  <h3>
+    {{ enhavo.fasado['En la teksto'] | default('', true) }}
+  </h3>
+  <ul>
+    {% for radiko in leciono.vortoj.teksto -%} 
+      <li>
+        <em>
+          {%- if radiko|lower in enhavo.vortaro -%}
+            {% set klavo = radiko|lower %}
+            {{radiko|lower}}
+          {%- elif radiko in enhavo.vortaro -%}
+            {% set klavo = radiko %}
+            {{radiko}}
+          {%- else -%}
+            {% set klavo = '' %}
+          {%- endif -%} 
+          {%- if radiko|lower in enhavo.finajxoj -%}
+            {{enhavo.finajxoj[radiko|lower]}}
+          {% endif %} 
+        </em>
+        – 
+        {% include 'tradukajxo.html' %}
+      </li>
+    {% endfor %}
+  </ul>
+  
+  <h3>
+    {{ enhavo.fasado['Pliaj'] | default('', true) }}
+  </h3>
+  
+  <ul>
+    {% for radiko in leciono.vortoj.pliaj -%} 
+      <li>
+        <em>
+          {%- if radiko|lower in enhavo.vortaro -%}
+            {% set klavo = radiko|lower %}
+            {{radiko|lower}}
+          {%- elif radiko in enhavo.vortaro -%}
+            {% set klavo = radiko %}
+            {{radiko}}
+          {%- else -%}
+            {% set klavo = '' %}
+            {{radiko}}
+          {%- endif -%} 
+          {%- if radiko|lower in enhavo.finajxoj -%}
+            {{enhavo.finajxoj[radiko]}}
+          {% endif %} 
+        </em>
+        – 
+        {% include 'tradukajxo.html' %}
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
+
+  {% include 'pagxonumerado-komentejo.html' %}
+
+{% endblock %}
+

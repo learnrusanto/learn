@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block title %}
+	{{leciono_index}}. {{leciono.teksto.titolo_string}}
+	|
+	{{enhavo.fasado['Gramatiko']}}
+	|
+  {{enhavo.fasado['Esperanto en 12 lecionoj']}}
+{% endblock %}
+
+{% block content %}
+
+  {% include 'pager.html' %}
+
+  <h2 id="leciono{{leciono_index}}">
+    {{leciono_index}}.
+    {% for vorto in leciono.teksto.titolo %}
+      {% include 'vorto.html' %}
+    {% endfor %}
+  </h2>
+
+  {% include 'tabs.html' %}
+
+  <div dir="{{enhavo.tekstodirekto}}">
+
+  {{leciono.gramatiko.teksto|markdown}} 
+
+	</div>
+
+  {% include 'pagxonumerado-komentejo.html' %}
+
+{% endblock %}

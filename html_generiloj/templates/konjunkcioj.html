@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block title %}
+	{{enhavo.fasado['Konjunkcioj']}}
+	|
+  {{enhavo.fasado['Esperanto en 12 lecionoj']}}
+{% endblock %}
+
+{% block content %}
+
+<h2>
+	{{enhavo.fasado['Konjunkcioj']}}
+</h2>
+
+<ul>
+{% for esperante in enhavo.vortaro|sort %}
+	{% if enhavo.vortaro[esperante].vortspeco=='konjunkcio' %}
+		<li>
+			<em>{{esperante}}</em> – 
+			{% set klavo = esperante %}
+			{% include 'tradukajxo.html' %}
+		</li>
+	{% endif %}
+
+{% endfor %}
+</ul>
+
+{% endblock %}

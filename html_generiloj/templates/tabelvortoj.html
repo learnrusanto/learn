@@ -1,0 +1,51 @@
+{% extends "layout.html" %}
+
+{% block title %}
+	{{enhavo.fasado['Tabelvortoj']}}
+	|
+  {{enhavo.fasado['Esperanto en 12 lecionoj']}}
+{% endblock %}
+
+{% block content %}
+
+<h2>
+	{{enhavo.fasado['Tabelvortoj']}}
+</h2>
+
+<table class="table">
+  <thead>
+    <tr>
+			<th>&nbsp;</th>
+      {% for parto1 in ['ki-', 'ti-', 'i-', 'ĉi-', 'neni-'] %}
+			<th>
+				<em>{{parto1}}</em>
+				<br/>
+				{% set klavo = parto1 %}
+				{% include 'tradukajxo.html' %}
+			</th>
+      {% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+		{% for parto2 in ['-o', '-u', '-am', '-a', '-e', '-el', '-om', '-al', '-es'] %}
+			<tr>
+				<th>
+					<em>{{parto2}}</em>
+					<br/>
+					{% set klavo = parto2 %}
+					{% include 'tradukajxo.html' %}
+				</th>
+				{% for parto1 in ['ki-', 'ti-', 'i-', 'ĉi-', 'neni-'] %}
+					{% set tabelvorto = parto1|replace('-','') ~ parto2|replace('-','') %}
+					<td>
+						<em>{{tabelvorto}}</em> –<br/>
+						{% set klavo = tabelvorto %}
+						{% include 'tradukajxo.html' %}
+					</td>
+				{% endfor %}
+			</tr>
+		{% endfor %}
+  </tbody>
+</table>
+
+{% endblock %}

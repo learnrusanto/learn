@@ -1,0 +1,105 @@
+{% extends "layout.html" %}
+
+{% block title %}
+	{{enhavo.fasado['Diversaĵoj']}}
+	|
+  {{enhavo.fasado['Esperanto en 12 lecionoj']}}
+{% endblock %}
+
+{% block content %}
+
+<h2>
+	{{enhavo.fasado['Diversaĵoj']}}
+</h2>
+
+<h3>
+	{{enhavo.fasado['Gravaj esprimoj']}}
+</h3>
+
+<ul>
+{% for esperante in enhavo.vortaro|sort %}
+	{% if enhavo.vortaro[esperante].vortspeco=='grava esprimo' %}
+		<li>
+			<em>{{esperante}}</em> – 
+			{% set klavo = esperante %}
+			{% include 'tradukajxo.html' %}
+		</li>
+	{% endif %}
+
+{% endfor %}
+</ul>
+
+<h3>
+	{{enhavo.fasado['Koloroj']}}
+</h3>
+
+<ul>
+{% for esperante in enhavo.vortaro|sort %}
+	{% if enhavo.vortaro[esperante].vortspeco=='koloro' %}
+		<li>
+			<em>{{esperante}}</em> – 
+			{% set klavo = esperante %}
+			{% include 'tradukajxo.html' %}
+		</li>
+	{% endif %}
+
+{% endfor %}
+</ul>
+
+<h3>
+	{{enhavo.fasado['Ciferoj']}}
+</h3>
+
+<ul>
+{% for esperante in enhavo.ordoj.cifero %}
+	<li>
+		<em>{{esperante}}</em> – 
+		{% set klavo = esperante %}
+		{% include 'tradukajxo.html' %}
+	</li>
+{% endfor %}
+</ul>
+
+<h3>
+	{{enhavo.fasado['Tagoj de semajno']}}
+</h3>
+
+<ul>
+{% for esperante in enhavo.ordoj.tago_en_la_semajno %}
+	<li>
+		<em>{{esperante}}</em> – 
+		{% set klavo = esperante %}
+		{% include 'tradukajxo.html' %}
+	</li>
+{% endfor %}
+</ul>
+
+<h3>
+	{{enhavo.fasado['Monatoj']}}
+</h3>
+
+<ul>
+{% for esperante in enhavo.ordoj.monato %}
+	<li>
+		<em>{{esperante}}</em> – 
+		{% set klavo = esperante %}
+		{% include 'tradukajxo.html' %}
+	</li>
+{% endfor %}
+</ul>
+
+<h3>
+	{{enhavo.fasado['Sezonoj']}}
+</h3>
+
+<ul>
+{% for esperante in enhavo.ordoj.sezono %}
+	<li>
+		<em>{{esperante}}</em> – 
+		{% set klavo = esperante %}
+		{% include 'tradukajxo.html' %}
+	</li>
+{% endfor %}
+</ul>
+
+{% endblock %}

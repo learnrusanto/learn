@@ -10,18 +10,16 @@ $(document).ready(function(){
 
 function esperantigu(s) {
   
-    s = s.replace('cx', 'ĉ')
-    s = s.replace('gx', 'ĝ')
-    s = s.replace('jx', 'ĵ')
-    s = s.replace('hx', 'ĥ')
-    s = s.replace('sx', 'ŝ')
-    s = s.replace('Cx', 'Ĉ')
-    s = s.replace('Gx', 'Ĝ')
-    s = s.replace('Jx', 'Ĵ')
-    s = s.replace('Hx', 'Ĥ')
-    s = s.replace('Sx', 'Ŝ')
-    s = s.replace('ux', 'ŭ')
-    s = s.replace('Ux', 'Ŭ')
+    s = s.replace('q', 'č')
+    s = s.replace('w', 'š')
+    s = s.replace('nj', 'ň')
+    s = s.replace('Nj', 'Ň')
+    s = s.replace('NJ', 'Ň')
+    s = s.replace('x', 'ž')
+    s = s.replace('Q', 'Č')
+    s = s.replace('W', 'Š')
+    s = s.replace('X', 'Ž')
+
 
     return s;
 }

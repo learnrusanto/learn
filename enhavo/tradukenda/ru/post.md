@@ -1,3 +1,9 @@
-#Što jesem Novorosiana (Rusanto2.0)?
+# Kak iskati slovov vo slovarov?
 
-Novorosiana jesem prosta nova versio ot ta rusia jeziko, kak “BASIC ENGLISH”. Nia do Esperanto, Novorosiana jesem razumaema bez učenjo ot dvasto-pjatdeset milionov Rusiav ludov. Ot Sankt-Peterburgo čerez Sibiro do Vladivostoko. Novorosiana imeem bole prostanu i bole logikanu gramatikonu, i Novorosiana jesem ta ideala jeziko dla novav dnesav ludov. Učajte Novorosiana teper!
+
+1. Okritajte https://novorosiana.github.io/learn
+2. Viberajte vaš jeziko.
+3. Pišajte vaš slovo vo verha storono.
+4. Pri ne moganio pašanio bukov "š", "č", "ž" i "ň" pašajte kak "w", "q", "x" i "nj".
+
+

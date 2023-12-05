@@ -1,13 +1,21 @@
-unu: один
-du: два
+unu: одинunu
+du: du
+kvin: kvin
+ses: ses
+sep: sep
+naŭ: naŭ
+dek: dek
+cent: cent
+odin: один
+dva: два
 tri: три
 kvar: четыре
-kvin: пять
-ses: шесть
-sep: семь
-ok: восемь
-naŭ: девять
-dek: десять
+pjat: пять
+šes: шесть
+sem: семь
+vosem: восемь
+devat: девять
+desat: десять
 dek unu: одинадцать
 dek du: двенадцать
 dek tri: тринадцать
@@ -20,7 +28,7 @@ dek naŭ: девятнадцать
 dudek: двадцать
 tridek: тридцать
 kvardek: сорок
-cent: сто
+sto: сто
 ducent: двести
 tricent: триста
 mil: тысяча

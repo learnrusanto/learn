@@ -2,23 +2,29 @@
 kio: што
 tio: то
 io: что-то
-ĉio: всё
+vso: всё
 nenio: ничего
-kiu:
+kotora:
 - кто
 - который
-tiu: тот
+tot: тот
 iu: кто-то
-ĉiu:
+vse:
 - каждый
 - все
 neniu:
 - никто
 - никакой из
 kie: где
-tie: там
+tam: там
 ie: где-то
 ĉie: везде
+ĉio: ĉio esp
+kiu: kiu esp
+tiu: tiu esp
+ĉiu: ĉiu esp
+tie: tie esp
+kiam: kiam esp
 nenie: нигде
 kia: какой
 tia: такой
@@ -37,7 +43,7 @@ tial: потому
 ial: почему-то
 ĉial: по-всякой (любой) причине
 nenial: без причины
-kiam: когда
+kogda: когда
 tiam: тогда
 iam: когда-то
 ĉiam: всегда

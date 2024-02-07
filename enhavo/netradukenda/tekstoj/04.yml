@@ -5,7 +5,7 @@ titolo:
   -
     - pism
     - o
-    - v
+    - f
 paragrafoj:
   -
     -
@@ -256,7 +256,7 @@ paragrafoj:
     -
       - pism
       - o
-      - v
+      - f
       - nu
     -
     -
@@ -265,7 +265,7 @@ paragrafoj:
     -
       - an
       - a
-      - v
+      - f
     - '!'
   -
     -
@@ -393,12 +393,11 @@ paragrafoj:
     -
     -
       - vaš
-      - v
     -
     -
       - knig
       - o
-      - v
+      - f
     -
     -
       - ne
@@ -491,7 +490,7 @@ paragrafoj:
     -
       - pism
       - o
-      - v
+      - f
       - nu
     -
     -
@@ -500,7 +499,7 @@ paragrafoj:
     -
       - an
       - a
-      - v
+      - f
     - '.'
   -
     -

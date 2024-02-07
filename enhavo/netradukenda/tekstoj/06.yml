@@ -24,16 +24,14 @@ paragrafoj:
     -
     -
       - Vse
-      - v
     -
     -
       - jejo
-      - v
     -
     -
       - drug
       - o
-      - v
+      - f
     -
     -
       - lub
@@ -53,7 +51,7 @@ paragrafoj:
     -
       - deň
       - o
-      - v
+      - f
     -
     -
       - ni
@@ -219,13 +217,12 @@ paragrafoj:
     -
     -
       - vaš
-      - v
       - nu
     -
     -
       - ruk
       - o
-      - v
+      - f
       - nu
     -
     - '…'
@@ -236,13 +233,12 @@ paragrafoj:
     -
     -
       - vaš
-      - v
       - nu
     -
     -
       - nog
       - o
-      - v
+      - f
       - nu
     -
     - '…'

@@ -120,7 +120,7 @@ god: год
 jun: молодой
 kaf: кофе
 kalv: лысый
-kap: голова
+golov: голова
 kapabl: способный
 kapt: ловить
 kar:
@@ -172,13 +172,13 @@ urok: урок
 čit: читать
 uč: изучать
 pism: письмо
-liber: свободный
+svobod: свободный
 knig: книга
 mest: место
 dolg: длинный
 dlin: длинный
-lud: играть
-lum: свет
+igr: играть
+svet: свет
 ruk: рука
 mam: мать
 mank: не хватать
@@ -280,7 +280,7 @@ respond: ответить
 nahod: находиться
 rest: находиться esp
 poluč: получить
-rid: смеяться
+smeh: смеяться
 glad: смотреть
 bogat: богатый
 rol: роль

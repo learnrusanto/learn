@@ -3,6 +3,7 @@ kio: што
 tio: то
 eto: то
 io: что-то
+što-to: что-то
 vso: всё
 nenio: ничего
 ničevo: ничего
@@ -11,6 +12,7 @@ kotora:
 - который
 tot: тот
 iu: кто-то
+kto-to: кто-то
 vse:
 - каждый
 - все
@@ -33,9 +35,11 @@ kia: какой
 kakoj: какой
 tia: такой
 ia: какой-то
+kakoj-to: какой-то
 ĉia: всякий
 nenia: никакой
 kiel: как
+kak: как
 tiel: так
 iel: как-то
 ĉiel:
@@ -62,6 +66,7 @@ skoka: сколько
 tiom: столько
 stoka: столько
 iom: сколько-то
+skoka-to: сколько-то
 ĉiom: всё 
 neniom: нисколько
 kies: чей

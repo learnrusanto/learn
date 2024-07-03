@@ -4,8 +4,7 @@ titolo:
   -
   -
     - pism
-    - o
-    - f
+    - i
 paragrafoj:
   -
     -
@@ -24,12 +23,10 @@ paragrafoj:
     -
       - kras
       - a
-      - nu
     -
     -
       - pism
       - o
-      - nu
     - '.'
     -
     -
@@ -78,7 +75,7 @@ paragrafoj:
   -
     -
     -
-      - Kogda
+      - Koda
     -
     -
       - ja
@@ -138,12 +135,10 @@ paragrafoj:
     -
     -
       - moj
-      - nu
     -
     -
       - komnat
       - o
-      - nu
     - '.'
     -
     -
@@ -182,12 +177,10 @@ paragrafoj:
     -
     -
       - moj
-      - nu
     -
     -
       - pism
       - o
-      - nu
     - '.'
     -
     -
@@ -233,7 +226,6 @@ paragrafoj:
     -
     -
       - Što
-      - nu
     -
     -
       - vi
@@ -255,17 +247,14 @@ paragrafoj:
     -
     -
       - pism
-      - o
-      - f
-      - nu
+      - i
     -
     -
       - ot
     -
     -
-      - an
+      - in
       - a
-      - f
     - '!'
   -
     -
@@ -277,7 +266,7 @@ paragrafoj:
     -
     -
       - del
-      - etes
+      - es
       - al
     -
     -
@@ -315,7 +304,6 @@ paragrafoj:
     -
       - stol
       - o
-      - nu
     -
     -
       - i
@@ -362,12 +350,10 @@ paragrafoj:
     -
     -
       - moj
-      - nu
     -
     -
       - knig
       - o
-      - nu
     -
     - '…'
   -
@@ -396,8 +382,7 @@ paragrafoj:
     -
     -
       - knig
-      - o
-      - f
+      - i
     -
     -
       - ne
@@ -445,7 +430,6 @@ paragrafoj:
     -
       - pism
       - o
-      - nu
     -
     -
       - ko
@@ -466,12 +450,10 @@ paragrafoj:
     -
       - dobr
       - a
-      - nu
     -
     -
       - urok
       - o
-      - nu
     - ':'
     -
     -
@@ -489,17 +471,14 @@ paragrafoj:
     -
     -
       - pism
-      - o
-      - f
-      - nu
+      - i
     -
     -
       - ot
     -
     -
-      - an
+      - in
       - a
-      - f
     - '.'
   -
     -
@@ -515,7 +494,6 @@ paragrafoj:
     -
       - urok
       - o
-      - nu
     -  ':'
     -
     -
@@ -539,7 +517,6 @@ paragrafoj:
     -
       - dver
       - o
-      - nu
     -
     -
       - ot

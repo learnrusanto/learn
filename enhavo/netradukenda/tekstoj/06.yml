@@ -30,8 +30,7 @@ paragrafoj:
     -
     -
       - drug
-      - o
-      - f
+      - i
     -
     -
       - lub
@@ -50,8 +49,7 @@ paragrafoj:
     -
     -
       - deň
-      - o
-      - f
+      - i
     -
     -
       - ni
@@ -92,7 +90,7 @@ paragrafoj:
     -
       - ni
       - san
-      - etes
+      - es
       - al
     -
     -
@@ -105,12 +103,10 @@ paragrafoj:
     -
       - velik
       - a
-      - nu
     -
     -
       - temperatur
       - o
-      - nu
     - '.'
     -
     -
@@ -157,7 +153,6 @@ paragrafoj:
     -
       - doktor
       - o
-      - nu
     - '.'
   
   -
@@ -217,13 +212,10 @@ paragrafoj:
     -
     -
       - vaš
-      - nu
     -
     -
       - ruk
-      - o
-      - f
-      - nu
+      - i
     -
     - '…'
     -
@@ -233,13 +225,10 @@ paragrafoj:
     -
     -
       - vaš
-      - nu
     -
     -
       - nog
-      - o
-      - f
-      - nu
+      - i
     -
     - '…'
     -
@@ -250,7 +239,6 @@ paragrafoj:
     -
     -
       - vi
-      - nu
     - '!'
   -
     -
@@ -262,7 +250,6 @@ paragrafoj:
     -
     -
       - vso
-      - nu
     -
     -
       - dobr
@@ -291,7 +278,6 @@ paragrafoj:
     -
       - sedmic
       - o
-      - nu
     -
     -
       - nahod
@@ -319,7 +305,6 @@ paragrafoj:
     -
       - avt
       - o
-      - nu
     - '.'
     -
     -
@@ -329,12 +314,10 @@ paragrafoj:
     -
       - mnog
       - a
-      - nu
     -
     -
       - čaj
       - o
-      - nu
     -
     -
       - utr
@@ -414,7 +397,6 @@ paragrafoj:
     -
     -
       - vi
-      - nu
     - '.'
   -
     - '–'
@@ -461,7 +443,6 @@ paragrafoj:
     -
     -
       - ja
-      - nu
     - '?'
   
   -

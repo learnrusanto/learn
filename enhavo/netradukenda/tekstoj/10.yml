@@ -2,8 +2,7 @@ titolo:
   -
     - Famili
     - an
-    - o
-    - f
+    - i
   -
   -
     - so
@@ -27,8 +26,7 @@ paragrafoj:
     -
     -
       - deň
-      - o
-      - f
+      - i
     - '!'
     -
     -
@@ -75,16 +73,14 @@ paragrafoj:
     -
       - famili
       - an
-      - o
-      - f
+      - i
     -
     -
       - i
     -
     -
       - drug
-      - o
-      - f
+      - i
     - .
     -
     -
@@ -139,7 +135,6 @@ paragrafoj:
     -
       - komnat
       - o
-      - nu
     - .
     -
     -
@@ -158,12 +153,10 @@ paragrafoj:
     -
     -
       - što-to
-      - nu
     -
     -
       - dobr
       - a
-      - nu
     - .
     -
     -
@@ -288,8 +281,7 @@ paragrafoj:
     -
       - famili
       - an
-      - o
-      - f
+      - i
     - ','
     -
     -
@@ -312,8 +304,7 @@ paragrafoj:
     -
       - klub
       - an
-      - o
-      - f
+      - i
     - .
   
   -
@@ -324,13 +315,11 @@ paragrafoj:
     -
     -
       - kotora
-      - f
     -
     -
       - klub
       - an
-      - o
-      - f
+      - i
     - '?'
     -
     - '–'
@@ -355,14 +344,10 @@ paragrafoj:
     -
     -
       - kakoj-to
-      - f
-      - nu
     -
     -
       - bumag
-      - o
-      - f
-      - nu
+      - i
     -
     -
       - vo
@@ -371,7 +356,6 @@ paragrafoj:
       - bumag
       - uj
       - o
-      - nu
     - .
   
   -
@@ -392,8 +376,7 @@ paragrafoj:
     -
     -
       - an
-      - o
-      - f
+      - i
     -
     -
       - ot
@@ -473,8 +456,7 @@ paragrafoj:
       - sam
       - klub
       - an
-      - o
-      - f
+      - i
     -
     -
       - tri
@@ -501,7 +483,6 @@ paragrafoj:
     -
     -
       - što-to
-      - nu
     -
     -
       - predlož
@@ -525,8 +506,7 @@ paragrafoj:
     -
       - famili
       - an
-      - o
-      - f
+      - i
     - .
     -
     -
@@ -572,8 +552,7 @@ paragrafoj:
     -
     -
       - drug
-      - o
-      - f
+      - i
     - .
     -
     -
@@ -670,19 +649,16 @@ paragrafoj:
     -
     -
       - kto-to
-      - nu
     -
     -
       - ide
       - o
       - bogat
       - a
-      - nu
     -
     -
       - onkl
       - o
-      - nu
     -
     -
       - Bonifacio
@@ -720,8 +696,7 @@ paragrafoj:
     -
     -
       - slov
-      - o
-      - f
+      - i
     - .
     -
     -
@@ -786,8 +761,7 @@ paragrafoj:
     -
     -
       - ide
-      - o
-      - f
+      - i
     - .
     -
     -
@@ -816,7 +790,6 @@ paragrafoj:
     -
     -
       - ono
-      - nu
     - .
   
   -
@@ -860,12 +833,10 @@ paragrafoj:
     -
       - nekotor
       - a
-      - f
     -
     -
       - minut
-      - o
-      - f
+      - i
     -
     -
       - telefon
@@ -890,7 +861,6 @@ paragrafoj:
     -
     -
       - mi
-      - nu
     -
     -
       - zavtra
@@ -909,14 +879,10 @@ paragrafoj:
     -
       - dolĉ
       - a
-      - f
-      - nu
     -
     -
       - tort
-      - o
-      - f
-      - nu
+      - i
     - ','
     -
     -
@@ -959,7 +925,6 @@ paragrafoj:
     -
       - opini
       - o
-      - nu
     - .
     -
     -
@@ -1027,12 +992,10 @@ paragrafoj:
     -
       - zavtra
       - a
-      - nu
     -
     -
       - deň
       - o
-      - nu
     -
     -
       - dom

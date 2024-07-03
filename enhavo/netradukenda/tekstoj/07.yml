@@ -45,7 +45,6 @@ paragrafoj:
     -
       - sonc
       - o
-      - nu
     - ','
     -
     -
@@ -126,7 +125,6 @@ paragrafoj:
     -
     -
       - eto
-      - nu
     - '.'
   
   -
@@ -171,7 +169,6 @@ paragrafoj:
       - odež
       - aĵ
       - o
-      - nu
     - '.'
     -
     -
@@ -192,7 +189,6 @@ paragrafoj:
     -
       - kaf
       - o
-      - nu
     - '.'
     -
     -
@@ -207,8 +203,7 @@ paragrafoj:
     -
     -
       - knig
-      - o
-      - f
+      - i
     -
     -
       - vo
@@ -250,8 +245,7 @@ paragrafoj:
     -
     -
       - lud
-      - o
-      - f
+      - i
     -
     -
       - gled
@@ -329,7 +323,6 @@ paragrafoj:
       - uč
       - iliš
       - o
-      - nu
     - ','
     -
     -
@@ -373,7 +366,6 @@ paragrafoj:
       - uč
       - ist
       - o
-      - nu
     -
     -
       - nei
@@ -381,9 +373,7 @@ paragrafoj:
     -
       - uč
       - ajuš
-      - o
-      - f
-      - nu
+      - i
     - '.'
   
   -

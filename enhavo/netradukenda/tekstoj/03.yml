@@ -87,7 +87,6 @@ paragrafoj:
       - kaf
       - iliš
       - o
-      - nu
     -
     -
       - i
@@ -100,9 +99,7 @@ paragrafoj:
     -
     -
       - tort
-      - o
-      - f
-      - nu
+      - i
     - '.'
   
   -
@@ -150,12 +147,10 @@ paragrafoj:
     -
       - dostat
       - a
-      - nu
     -
     -
       - groš
       - o
-      - nu
     - '?'
   
   -
@@ -179,9 +174,7 @@ paragrafoj:
     -
     -
       - dolar
-      - o
-      - f
-      - nu
+      - i
     - '.'
   
   -
@@ -218,14 +211,10 @@ paragrafoj:
     -
       - mnog
       - a
-      - f
-      - nu
     -
     -
       - tort
-      - o
-      - f
-      - nu
+      - i
     - '.'
     -
     -
@@ -354,7 +343,6 @@ paragrafoj:
     -
       - groš
       - o
-      - nu
     - '.'
   
   -

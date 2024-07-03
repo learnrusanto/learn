@@ -88,8 +88,7 @@ paragrafoj:
     -
     -
       - gorod
-      - o
-      - f
+      - i
     -
     -
       - i
@@ -101,8 +100,7 @@ paragrafoj:
     -
       - kras
       - aĵ
-      - o
-      - f
+      - i
     - '.'
     -
     -
@@ -170,7 +168,6 @@ paragrafoj:
     -
       - knig
       - o
-      - nu
     -
     -
       - dla
@@ -182,7 +179,6 @@ paragrafoj:
     -
       - Rusant
       - o
-      - nu
     - '.'
     -
     -
@@ -270,7 +266,6 @@ paragrafoj:
     -
       - sekret
       - o
-      - nu
     - ':'
     -
     -
@@ -298,7 +293,6 @@ paragrafoj:
     -
       - žela
       - o
-      - nu
     -
     -
       - i
@@ -319,7 +313,6 @@ paragrafoj:
     -
       - avt
       - o
-      - nu
     -
     -
       - dla
@@ -373,7 +366,6 @@ paragrafoj:
     -
     -
       - Ničevo
-      - nu
     -
     -
       - kaz
@@ -403,7 +395,6 @@ paragrafoj:
     -
       - avt
       - o
-      - nu
     -
     -
       - i
@@ -455,8 +446,7 @@ paragrafoj:
     -
       - odež
       - aĵ
-      - o
-      - f
+      - i
     -
     -
       - jes
@@ -557,7 +547,6 @@ paragrafoj:
     -
       - sekret
       - o
-      - nu
     - '.'
     -
     -
@@ -606,5 +595,4 @@ paragrafoj:
     -
     -
       - eto
-      - nu
     - '.'

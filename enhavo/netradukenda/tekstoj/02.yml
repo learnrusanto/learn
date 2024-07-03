@@ -26,7 +26,6 @@ paragrafoj:
       - drug
       - iň
       - o
-      - nu
     - '.'
     -
     -
@@ -142,7 +141,6 @@ paragrafoj:
     -
     -
       - Što
-      - nu
     -
     -
       - vi
@@ -208,12 +206,10 @@ paragrafoj:
     -
       - dobr
       - a
-      - nu
     -
     -
       - knig
       - o
-      - nu
     - '?'
   
   -
@@ -251,9 +247,7 @@ paragrafoj:
     -
     -
       - knig
-      - o
-      - f
-      - nu
+      - i
     - '.'
     -
     -
@@ -273,7 +267,6 @@ paragrafoj:
     -
       - kaf
       - o
-      - nu
     - '?'
   
   -
@@ -290,17 +283,15 @@ paragrafoj:
       - vaš
     -
     -
-      - wip
+      - tat
       - o
-      - f
     -
     -
       - i
     -
     -
-      - wip
+      - mam
       - o
-      - f
     -
     -
       - jes
@@ -362,7 +353,6 @@ paragrafoj:
     -
     -
       - ono
-      - nu
     - '.'
   
   -
@@ -391,12 +381,10 @@ paragrafoj:
       - ni
       - tepl
       - a
-      - nu
     -
     -
       - kaf
       - o
-      - nu
     - '.'
   -
     -
@@ -416,9 +404,7 @@ paragrafoj:
     -
     -
       - ok
-      - o
-      - f
-      - nu
+      - i
     -
     -
       - ot
@@ -447,6 +433,5 @@ paragrafoj:
     -
     -
       - Ona
-      - nu
     - '.'
   

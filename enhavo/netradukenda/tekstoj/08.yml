@@ -79,12 +79,10 @@ paragrafoj:
       - ni
       - dobr
       - a
-      - nu
     -
     -
       - not
       - o
-      - nu
     - '.'
     -
     -
@@ -127,7 +125,6 @@ paragrafoj:
     -
       - golov
       - o
-      - nu
     - '.'
     -
     -
@@ -143,8 +140,7 @@ paragrafoj:
     -
     -
       - not
-      - o
-      - f
+      - i
     -
     -
       - vi
@@ -185,7 +181,6 @@ paragrafoj:
     -
       - komnat
       - o
-      - nu
     -
     -
       - i
@@ -255,8 +250,7 @@ paragrafoj:
     -
     -
       - dum
-      - o
-      - f
+      - i
     -
     -
       - jes
@@ -277,8 +271,7 @@ paragrafoj:
     -
     -
       - drug
-      - o
-      - f
+      - i
     -
     -
       - i
@@ -370,7 +363,6 @@ paragrafoj:
     -
       - komnat
       - o
-      - nu
     -
     -
       - i
@@ -384,9 +376,7 @@ paragrafoj:
     -
     -
       - slov
-      - o
-      - f
-      - nu
+      - i
     - '.'
     -
     -
@@ -488,9 +478,7 @@ paragrafoj:
     -
     -
       - not
-      - o
-      - f
-      - nu
+      - i
     - '.'
   
   -
@@ -530,7 +518,6 @@ paragrafoj:
     -
       - not
       - o
-      - nu
     -
     -
       - pro
@@ -587,7 +574,6 @@ paragrafoj:
     -
       - deň
       - o
-      - nu
     - '.'
     -
     -

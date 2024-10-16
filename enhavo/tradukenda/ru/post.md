@@ -1,10 +1,10 @@
-# Kak iskati slovof vo slovarof?
+# Kak iskati slovi vo slovari?
 
 
 1. Okritajte https://novorosiana.github.io/learn
 2. Viberajte vaš jeziko.
 3. Pišajte vaš slovo vo verha storono.
-4. Pri ne moganio pašanio bukof "š", "č", "ž" i "ň" pašajte kak "w", "q", "x" i "nj".
+4. Pri ne moganio pašanio znaki "š", "č", "ž" i "ň" pašajte kak "w", "q", "x" i "nj".
 
 # Настройка клавиатуры
 ## Linux (Latina и Кирила)
